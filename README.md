@@ -14,7 +14,7 @@ The input string represents the number of visible skyscrapers from each perspect
 
 The expected output might be:
 
-1 2 3 4
-2 3 4 1
-3 4 1 2
-4 1 2 3
+1 2 3 4  
+2 3 4 1  
+3 4 1 2  
+4 1 2 3  
