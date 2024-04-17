@@ -1,10 +1,12 @@
 # Skyscraper-Puzzle-Solver
+This Skyscraper Puzzle Solver is a coding challenge from my bootcamp, designed to showcase my recent learnings in the C programming language and adherence to coding standards. The project involves solving a 4x4 Skyscraper puzzle, which is a type of logic game that combines elements of Sudoku with additional visibility constraints.
 
-This project implements a puzzle solver for a specific 4x4 skyscraper puzzle, where each cell represents the height of a skyscraper (from 1 to 4). The objective is to fill the grid such that the number of visible skyscrapers from each direction matches provided clues. These clues indicate how many skyscrapers are visible from a particular vantage point (left, right, top, bottom).
+The puzzle uses a backtracking approach to explore possible configurations, ensuring each row and column contains unique heights of skyscrapers while satisfying the visibility criteria provided by the input clues.
 
-
-## Project Description
-The skyscraper puzzle solver is designed to determine the arrangement of skyscrapers on a 4x4 grid based on clues provided for each row and column from different perspectives (left, right, up, down). The puzzle uses a backtracking approach to explore possible configurations, ensuring each row and column contains unique heights of skyscrapers while satisfying the visibility criteria provided by the input clues.
+## Background
+In the Skyscraper puzzle, each number in the grid represents the height of a building. The clues around the grid indicate how many buildings are visible from that vantage point, considering that taller buildings block the view of shorter ones behind them. Each row and column must contain unique heights without any repetitions, and the arrangement must adhere to the visibility hints provided from different perspectives: left, right, top, and bottom of the grid.
+  
+For a more detailed introduction, please refer to the RUSH01 document which provides comprehensive insights into the project requirements and constraints.
 
 ## Example
 Run the program with the specific input format as follows:
@@ -18,3 +20,11 @@ The expected output might be:
 2 3 4 1  
 3 4 1 2  
 4 1 2 3  
+
+## Learning Objectives
+### C Programming: 
+This project is implemented entirely in C, which has allowed me to deepen my understanding of fundamental programming constructs, memory management, and efficient data structure usage.
+### Coding Standards: 
+Throughout the development, I adhered to strict coding standards that are part of my bootcamp training, ensuring that the code is not only functional but also clean, well-documented, and maintainable.
+### Algorithm Design: 
+The solution involves designing an algorithm capable of considering multiple constraints simultaneously, a valuable skill in any software development scenario.
