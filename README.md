@@ -9,7 +9,7 @@ In the Skyscraper puzzle, each number in the grid represents the height of a bui
 For a more detailed introduction, please refer to the RUSH01 document which provides comprehensive insights into the project requirements and constraints.
 
 ## Example
-Run the program with the specific input format as follows:
+Run the program with the input as follows:
 ./ "4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"
 
 The input string represents the number of visible skyscrapers from each perspective in a sequence of: col1up col2up col3up col4up col1down col2down col3down col4down row1left row2left row3left row4left row1right row2right row3right row4right.
